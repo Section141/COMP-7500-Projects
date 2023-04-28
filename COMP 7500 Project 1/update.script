@@ -1,0 +1,12 @@
+Script started on 2023-01-20 12:38:41-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]777;notify;Command completed;\]777;precmd\]0;centos@localhost:/home/centos\]7;file://localhost/home/centos\[?2004h[root@localhost centos]# yum -y update
+[?2004l]777;preexec\CentOS Stream 9 - Ba     [===                 ] ---  B/s |   0  B     --:-- ETACentOS Stream 9 - Ba     [===                 ] ---  B/s |   0  B     --:-- ETACentOS Stream 9 - Ba     [   ===              ] ---  B/s |   0  B     --:-- ETACentOS Stream 9 - Ba     [      ===           ] ---  B/s |   0  B     --:-- ETACentOS Stream 9 - Ba 12% [==                  ] 2.4 MB/s | 759 kB     00:02 ETACentOS Stream 9 - Ba 88% [=================-  ] 3.2 MB/s | 5.4 MB     00:00 ETACentOS Stream 9 - BaseOS                        3.8 MB/s | 6.0 MB     00:01    
+CentOS Stream 9 - Ap     [         ===        ] ---  B/s |   0  B     --:-- ETACentOS Stream 9 - Ap 59% [===========-        ] 8.6 kB/s | 2.6 kB     00:00 ETACentOS Stream 9 - Ap  3% [-                   ] 120 kB/s | 565 kB     02:10 ETACentOS Stream 9 - Ap 34% [======-             ] 1.1 MB/s | 5.4 MB     00:09 ETACentOS Stream 9 - Ap 69% [=============-      ] 2.2 MB/s |  11 MB     00:02 ETACentOS Stream 9 - AppStream                      10 MB/s |  16 MB     00:01    
+CentOS Stream 9 - Ex     [            ===     ] ---  B/s |   0  B     --:-- ETACentOS Stream 9 - Ex100% [====================]  26 kB/s | 8.4 kB     00:00 ETACentOS Stream 9 - Ex  0% [                    ]  26 kB/s |   0  B     00:00 ETACentOS Stream 9 - Extras packages                14 kB/s |  10 kB     00:00    
+Dependencies resolved.
+Nothing to do.
+Complete!
+]777;notify;Command completed;yum -y update\]777;precmd\]0;centos@localhost:/home/centos\]7;file://localhost/home/centos\[?2004h[root@localhost centos]# exit
+[?2004l]777;preexec\exit
+
+Script done on 2023-01-20 12:39:14-06:00 [COMMAND_EXIT_CODE="0"]

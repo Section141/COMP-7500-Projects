@@ -1,0 +1,51 @@
+Script started on 2023-03-18 23:39:03-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]777;notify;Command completed;exit\]777;precmd\]0;centos@localhost:~\]7;file://localhost/home/centos\[?2004h[centos@localhost ~]$ exitmake -f makefile.txt[K[K[K[K[K[K[K[Krfile.txt
+[?2004l]777;preexec\gcc   -pthread -w  aubatch.c   -o aubatch
+gcc   -pthread -w  process.c   -o process
+]777;notify;Command completed;make -f makerfile.txt\]777;precmd\]0;centos@localhost:~\]7;file://localhost/home/centos\[?2004h[centos@localhost ~]$ ./aubatch
+[?2004l]777;preexec\
+ Welcome to Sajith's batch job scheduler version 1.0
+ Type 'help' to find more about AUbatch commands.
+>help
+//////////////////////////////////////////////////////////////
+How to use 'run': run <job> <time> <priority>: submit a job named <job>,
+	 	 execution time is <time>,
+	 	 priority of jobs is <priority>.
+What 'list' displays, list: display the job status.
+[First Come First Serve] fcfs: change the scheduling policy to FCFS.
+[Shortest Job First] sjf: change the scheduling policy to SJF.
+[Priority scheduling] priority: change the scheduling policy to priority.
+How to use 'test': test <benchmark> <policy> <num_of_jobs> <priority_levels <min_CPU_time> <max_CPU_time>
+help: Prints the same prompt again
+quit: Exit AUbatch Batch Scheduling System
+//////////////////////////////////////////////////////////////
+
+>run a 3 4
+Job a was submitted.
+Total number of jobs in the queue: 0
+Expected waiting time: 3 seconds
+Scheduling Policy: FCFS.
+
+>run b 5 7
+Job b was submitted.
+Total number of jobs in the queue: 1
+Expected waiting time: 5 seconds
+Scheduling Policy: FCFS.
+
+>test fcfs      testfcfs fcfs 4 5 4   9 13
+Total number of jobs submitted: 6
+Average turnaround time: 14.83 seconds
+Average CPU time: 6.17 seconds
+Average waiting time: 8.67 seconds
+Throughput:	0.16 No./second
+
+>qut it
+Total number of jobs submitted: 6
+Average turnaround time:21.67 seconds
+Average CPU time:8.00 seconds
+Average waiting time:13.67 seconds
+Throughput:0.12 No./second
+]777;notify;Command completed;./aubatch\]777;precmd\]0;centos@localhost:~\]7;file://localhost/home/centos\[?2004h[centos@localhost ~]$ exit
+[?2004l]777;preexec\exit
+
+Script done on 2023-03-18 23:41:39-05:00 [COMMAND_EXIT_CODE="0"]

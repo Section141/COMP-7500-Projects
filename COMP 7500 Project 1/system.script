@@ -1,0 +1,220 @@
+Script started on 2023-01-20 12:48:35-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]777;notify;Command completed;exit\]777;precmd\]0;centos@localhost:/home/centos\]7;file://localhost/home/centos\[?2004h[root@localhost centos]# more /proc/cpuinfo
+[?2004l]777;preexec\processor	: 0
+vendor_id	: AuthenticAMD
+cpu family	: 25
+model		: 80
+model name	: AMD Ryzen 5 5600H with Radeon Graphics
+stepping	: 0
+microcode	: 0xffffffff
+cpu MHz		: 3293.726
+cache size	: 512 KB
+physical id	: 0
+siblings	: 3
+core id		: 0
+cpu cores	: 3
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov 
+pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt rdtscp lm cons
+tant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqd
+q ssse3 cx16 sse4_1 sse4_2 movbe popcnt aes rdrand hypervisor lahf_lm cmp_legacy
+[7m--More--[27m cr8_legacy abm sse4a misalignsse 3dnowprefetch vmmcall fsgsbase bmi1 bmi2 invpc
+id rdseed clflushopt arat
+bugs		: fxsave_leak sysret_ss_attrs null_seg spectre_v1 spectre_v2
+bogomips	: 6587.45
+TLB size	: 2560 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: AuthenticAMD
+cpu family	: 25
+model		: 80
+model name	: AMD Ryzen 5 5600H with Radeon Graphics
+stepping	: 0
+microcode	: 0xffffffff
+cpu MHz		: 3293.726
+cache size	: 512 KB
+physical id	: 0
+siblings	: 3
+core id		: 1
+cpu cores	: 3
+[7m--More--[27m[Kapicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov 
+pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt rdtscp lm cons
+tant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqd
+q ssse3 cx16 sse4_1 sse4_2 movbe popcnt aes rdrand hypervisor lahf_lm cmp_legacy
+ cr8_legacy abm sse4a misalignsse 3dnowprefetch vmmcall fsgsbase bmi1 bmi2 invpc
+id rdseed clflushopt arat
+bugs		: fxsave_leak sysret_ss_attrs null_seg spectre_v1 spectre_v2
+bogomips	: 6587.45
+TLB size	: 2560 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: AuthenticAMD
+cpu family	: 25
+[7m--More--[27m[Kmodel		: 80
+model name	: AMD Ryzen 5 5600H with Radeon Graphics
+stepping	: 0
+microcode	: 0xffffffff
+cpu MHz		: 3293.726
+cache size	: 512 KB
+physical id	: 0
+siblings	: 3
+core id		: 2
+cpu cores	: 3
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov 
+pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt rdtscp lm cons
+tant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqd
+q ssse3 cx16 sse4_1 sse4_2 movbe popcnt aes rdrand hypervisor lahf_lm cmp_legacy
+ cr8_legacy abm sse4a misalignsse 3dnowprefetch vmmcall fsgsbase bmi1 bmi2 invpc
+id rdseed clflushopt arat
+bugs		: fxsave_leak sysret_ss_attrs null_seg spectre_v1 spectre_v2
+[7m--More--[27mbogomips	: 6587.45
+TLB size	: 2560 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management:
+
+]777;notify;Command completed;more /proc/cpuinfo\]777;precmd\]0;centos@localhost:/home/centos\]7;file://localhost/home/centos\[?2004h[root@localhost centos]# more /proc/meminfo
+[?2004l]777;preexec\MemTotal:        1820472 kB
+MemFree:          158512 kB
+MemAvailable:     703184 kB
+Buffers:            1132 kB
+Cached:           649384 kB
+SwapCached:         7304 kB
+Active:           329772 kB
+Inactive:        1042940 kB
+Active(anon):      10732 kB
+Inactive(anon):   722336 kB
+Active(file):     319040 kB
+Inactive(file):   320604 kB
+Unevictable:          48 kB
+Mlocked:              48 kB
+SwapTotal:       1572860 kB
+SwapFree:        1509500 kB
+Zswap:                 0 kB
+Zswapped:              0 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:        704316 kB
+Mapped:           214740 kB
+Shmem:             10872 kB
+[7m--More--[27mKReclaimable:      71420 kB
+Slab:             140584 kB
+SReclaimable:      71420 kB
+SUnreclaim:        69164 kB
+KernelStack:        7024 kB
+PageTables:        13416 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     2483096 kB
+Committed_AS:    3273076 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       36616 kB
+VmallocChunk:          0 kB
+Percpu:             2368 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    458752 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+[7m--More--[27mHugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      135104 kB
+DirectMap2M:     1961984 kB
+]777;notify;Command completed;more /proc/meminfo\]777;precmd\]0;centos@localhost:/home/centos\]7;file://localhost/home/centos\[?2004h[root@localhost centos]# /sbin/lspci
+[?2004l]777;preexec\00:00.0 Host bridge: Intel Corporation 440FX - 82441FX PMC [Natoma] (rev 02)
+00:01.0 ISA bridge: Intel Corporation 82371SB PIIX3 ISA [Natoma/Triton II]
+00:01.1 IDE interface: Intel Corporation 82371AB/EB/MB PIIX4 IDE (rev 01)
+00:02.0 VGA compatible controller: VMware SVGA II Adapter
+00:03.0 Ethernet controller: Intel Corporation 82540EM Gigabit Ethernet Controller (rev 02)
+00:04.0 System peripheral: InnoTek Systemberatung GmbH VirtualBox Guest Service
+00:05.0 Multimedia audio controller: Intel Corporation 82801AA AC'97 Audio Controller (rev 01)
+00:06.0 USB controller: Apple Inc. KeyLargo/Intrepid USB
+00:07.0 Bridge: Intel Corporation 82371AB/EB/MB PIIX4 ACPI (rev 08)
+00:0b.0 USB controller: Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) USB2 EHCI Controller
+00:0d.0 SATA controller: Intel Corporation 82801HM/HEM (ICH8M/ICH8M-E) SATA Controller [AHCI mode] (rev 02)
+]777;notify;Command completed;/sbin/lspci\]777;precmd\]0;centos@localhost:/home/centos\]7;file://localhost/home/centos\[?2004h[root@localhost centos]# /sbin [K/ethtool eth0
+[?2004l]777;preexec\netlink error: no device matches name (offset 24)
+netlink error: No such device
+netlink error: no device matches name (offset 24)
+netlink error: No such device
+netlink error: no device matches name (offset 24)
+netlink error: No such device
+netlink error: no device matches name (offset 24)
+netlink error: No such device
+netlink error: no device matches name (offset 24)
+netlink error: No such device
+No data available
+]777;notify;Command completed;/sbin/ethtool eth0\]777;precmd\]0;centos@localhost:/home/centos\]7;file://localhost/home/centos\[?2004h[root@localhost centos]# /sbin/ifconfig eth0
+[?2004l]777;preexec\eth0: error fetching interface information: Device not found
+]777;notify;Command completed;/sbin/ifconfig eth0\]777;precmd\]0;centos@localhost:/home/centos\]7;file://localhost/home/centos\[?2004h[root@localhost centos]# more /proc/interrupts
+[?2004l]777;preexec\           CPU0       CPU1       CPU2       
+  0:         99          0          0   IO-APIC   2-edge      timer
+  1:          0          0       1052   IO-APIC   1-edge      i8042
+  8:          0          0          0   IO-APIC   8-edge      rtc0
+  9:          0          0          0   IO-APIC   9-fasteoi   acpi
+ 12:          0       5448          0   IO-APIC  12-edge      i8042
+ 14:          0          0          0   IO-APIC  14-edge      ata_piix
+ 15:          0          0       2302   IO-APIC  15-edge      ata_piix
+ 18:          0        238       2359   IO-APIC  18-fasteoi   vmwgfx
+ 19:          0       9553         85   IO-APIC  19-fasteoi   ehci_hcd:usb1, enp
+0s3
+ 21:      37304          0          0   IO-APIC  21-fasteoi   ahci[0000:00:0d.0]
+, snd_intel8x0
+ 22:          0          0          0   IO-APIC  22-fasteoi   ohci_hcd:usb2
+NMI:          0          0          0   Non-maskable interrupts
+LOC:      93558      96579      95297   Local timer interrupts
+SPU:          0          0          0   Spurious interrupts
+PMI:          0          0          0   Performance monitoring interrupts
+IWI:          0          0          0   IRQ work interrupts
+RTR:          0          0          0   APIC ICR read retries
+RES:      17012      18228      16739   Rescheduling interrupts
+CAL:      53572      61420      61430   Function call interrupts
+TLB:        979       1055        869   TLB shootdowns
+[7m--More--[27mTRM:          0          0          0   Thermal event interrupts
+THR:          0          0          0   Threshold APIC interrupts
+DFR:          0          0          0   Deferred Error APIC interrupts
+MCE:          0          0          0   Machine check exceptions
+MCP:          7          7          7   Machine check polls
+ERR:          0
+MIS:          9
+PIN:          0          0          0   Posted-interrupt notification event
+NPI:          0          0          0   Nested posted-interrupt event
+PIW:          0          0          0   Posted-interrupt wakeup event
+]777;notify;Command completed;more /proc/interrupts\]777;precmd\]0;centos@localhost:/home/centos\]7;file://localhost/home/centos\[?2004h[root@localhost centos]# exit
+[?2004l]777;preexec\exit
+
+Script done on 2023-01-20 12:49:43-06:00 [COMMAND_EXIT_CODE="0"]

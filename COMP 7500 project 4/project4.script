@@ -1,0 +1,66 @@
+Script started on 2023-04-24 20:23:31-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]777;notify;Command completed;./cpmRun \]777;precmd\]0;centos@localhost:~/project 4\]7;file://localhost/home/centos/project%204\[?2004h[centos@localhost project 4]$ make
+[?2004l]777;preexec\gcc -c diskSimulator.c
+gcc -c cpmfsys.c  
+gcc -c fsysdriver.c 
+gcc -o cpmRun diskSimulator.o cpmfsys.o fsysdriver.o 
+]777;notify;Command completed;make\]777;precmd\]0;centos@localhost:~/project 4\]7;file://localhost/home/centos/project%204\[?2004h[centos@localhost project 4]$ ./cpmRun 
+[?2004l]777;preexec\
+DIRECTORY LISTING
+mytestf1.txt 15874
+holefile.txt 1152
+shortf.ps  1032
+mytestf.    1026
+
+FREE BLOCK LIST: (* Means in-use)
+   0:  * . * . * . * . * . * . * . * .
+  10:  * . . . . . . . . . . . . . . .
+  20:  . . . . . . . . . . . . . . . .
+  30:  . . . . . . . . . . . . . . . .
+  40:  . . . . . . . . . . . . . . . .
+  50:  . . . . . . . . . . . . . . . .
+  60:  . . . . . . . . . . . . . . . .
+  70:  . . . . . . . . . . . . . . . .
+  80:  . . . . . . . . . . . . . . . .
+  90:  . . . . . . . . . . . . . . . .
+  a0:  . . . . . . . . . . . . . . . .
+  b0:  . . . . . . . . . . . . . . . .
+  c0:  . . . . . . . . . . . . . . . .
+  d0:  . . . . . . . . . . . . . . . .
+  e0:  . . . . . . . . . . . . . . . .
+  f0:  . * . * . * . * . * . * . * . *
+
+
+DIRECTORY LISTING
+mytestf1.txt 15874
+holefile.txt 1152
+mytestf.    1026
+cpmRename return code = 0,
+
+DIRECTORY LISTING
+mytest2.tx 13826
+holefile.txt 1152
+mytestv2.x 7170
+
+FREE BLOCK LIST: (* Means in-use)
+   0:  * . * . * . * . * . * . * . * .
+  10:  * . . . . . . . . . . . . . . .
+  20:  . . . . . . . . . . . . . . . .
+  30:  . . . . . . . . . . . . . . . .
+  40:  . . . . . . . . . . . . . . . .
+  50:  . . . . . . . . . . . . . . . .
+  60:  . . . . . . . . . . . . . . . .
+  70:  . . . . . . . . . . . . . . . .
+  80:  . . . . . . . . . . . . . . . .
+  90:  . . . . . . . . . . . . . . . .
+  a0:  . . . . . . . . . . . . . . . .
+  b0:  . . . . . . . . . . . . . . . .
+  c0:  . . . . . . . . . . . . . . . .
+  d0:  . . . . . . . . . . . . . . . .
+  e0:  . . . . . . . . . . . . . . . .
+  f0:  . * . * . * . * . * . * . * . *
+
+]777;notify;Command completed;./cpmRun \]777;precmd\]0;centos@localhost:~/project 4\]7;file://localhost/home/centos/project%204\[?2004h[centos@localhost project 4]$ exit
+[?2004l]777;preexec\exit
+
+Script done on 2023-04-24 20:24:09-05:00 [COMMAND_EXIT_CODE="0"]

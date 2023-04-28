@@ -1,0 +1,21 @@
+Script started on 2023-01-20 12:57:24-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]777;notify;Command completed;exit\]777;precmd\]0;centos@localhost:/home/centos\]7;file://localhost/home/centos\[?2004h[root@localhost centos]# exitmore /proc/interrupts[2P/sbin/ifconfig eth0[1Pethtool[C[C[C[C[C[7Plspcimore /proc/meminfo[7P/sbin/lspciethtool eth0[1@ifconfig[C[C[C[C[Cmore /proc/interruptsexit[K[Kgcc -g -lm -o projce[K[Kect1 project1.c
+[?2004l]777;preexec\]777;notify;Command completed;gcc -g -lm -o project1 project1.c\]777;precmd\]0;centos@localhost:/home/centos\]7;file://localhost/home/centos\[?2004h[root@localhost centos]# ./project1 
+[?2004l]777;preexec\
+ Enter the 10 numbers:
+^[[F    1
+4 9 4
+9
+16
+25
+36
+49
+64
+81
+100
+
+ The average of the sum of the square roots =5.500000
+ ]777;notify;Command completed;./project1 \]777;precmd\]0;centos@localhost:/home/centos\]7;file://localhost/home/centos\[?2004h[root@localhost centos]# exit
+[?2004l]777;preexec\exit
+
+Script done on 2023-01-20 13:00:08-06:00 [COMMAND_EXIT_CODE="0"]
